@@ -1,0 +1,4 @@
+(executable
+ (public_name camelo_de_briga)
+ (name main)
+ (libraries camelo_de_briga))

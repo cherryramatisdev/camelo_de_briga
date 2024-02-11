@@ -1,0 +1,32 @@
+# OCaml/Dune Project
+# Ignore compiled files and build artifacts
+
+# Compiled files
+*.cmi
+*.cmo
+*.cmt
+*.cmx
+*.o
+*.a
+*.cma
+*.cmxa
+*.cmxs
+*.byte
+
+# Build artifacts
+/_opam/
+/_build/
+/_esy/
+/esy.lock
+/dune-project
+/dune-workspace
+
+# Editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Dependency directories
+/opam-switch/
+/esy/
